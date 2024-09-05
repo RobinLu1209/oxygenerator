@@ -1,0 +1,46 @@
+2024-09-04 13:50:36,994 - INFO - 2024/09/04 13:50:36
+2024-09-04 13:50:37,551 - INFO - INFO: GPU
+2024-09-04 13:50:40,957 - INFO - Parameter mlp.mlp_model.0.weight: torch.Size([32, 15]), require_grad = True
+2024-09-04 13:50:40,957 - INFO - Parameter mlp.mlp_model.0.bias: torch.Size([32]), require_grad = True
+2024-09-04 13:50:40,957 - INFO - Parameter mlp.mlp_model.1.weight: torch.Size([32, 32]), require_grad = True
+2024-09-04 13:50:40,957 - INFO - Parameter mlp.mlp_model.1.bias: torch.Size([32]), require_grad = True
+2024-09-04 13:50:40,957 - INFO - Parameter temporal_model.weight_ih_l0: torch.Size([64, 1]), require_grad = True
+2024-09-04 13:50:40,958 - INFO - Parameter temporal_model.weight_hh_l0: torch.Size([64, 16]), require_grad = True
+2024-09-04 13:50:40,958 - INFO - Parameter temporal_model.bias_ih_l0: torch.Size([64]), require_grad = True
+2024-09-04 13:50:40,958 - INFO - Parameter temporal_model.bias_hh_l0: torch.Size([64]), require_grad = True
+2024-09-04 13:50:40,958 - INFO - Parameter temporal_model.weight_ih_l0_reverse: torch.Size([64, 1]), require_grad = True
+2024-09-04 13:50:40,958 - INFO - Parameter temporal_model.weight_hh_l0_reverse: torch.Size([64, 16]), require_grad = True
+2024-09-04 13:50:40,958 - INFO - Parameter temporal_model.bias_ih_l0_reverse: torch.Size([64]), require_grad = True
+2024-09-04 13:50:40,959 - INFO - Parameter temporal_model.bias_hh_l0_reverse: torch.Size([64]), require_grad = True
+2024-09-04 13:50:40,959 - INFO - Parameter temporal_model.weight_ih_l1: torch.Size([64, 32]), require_grad = True
+2024-09-04 13:50:40,959 - INFO - Parameter temporal_model.weight_hh_l1: torch.Size([64, 16]), require_grad = True
+2024-09-04 13:50:40,959 - INFO - Parameter temporal_model.bias_ih_l1: torch.Size([64]), require_grad = True
+2024-09-04 13:50:40,959 - INFO - Parameter temporal_model.bias_hh_l1: torch.Size([64]), require_grad = True
+2024-09-04 13:50:40,959 - INFO - Parameter temporal_model.weight_ih_l1_reverse: torch.Size([64, 32]), require_grad = True
+2024-09-04 13:50:40,960 - INFO - Parameter temporal_model.weight_hh_l1_reverse: torch.Size([64, 16]), require_grad = True
+2024-09-04 13:50:40,960 - INFO - Parameter temporal_model.bias_ih_l1_reverse: torch.Size([64]), require_grad = True
+2024-09-04 13:50:40,960 - INFO - Parameter temporal_model.bias_hh_l1_reverse: torch.Size([64]), require_grad = True
+2024-09-04 13:50:40,960 - INFO - Parameter gnn_layer.0.feature_transform.weight: torch.Size([32, 64]), require_grad = True
+2024-09-04 13:50:40,960 - INFO - Parameter gnn_layer.0.edge_transform.weight: torch.Size([1, 5]), require_grad = True
+2024-09-04 13:50:40,960 - INFO - Parameter gnn_layer.0.edge_transform.bias: torch.Size([1]), require_grad = True
+2024-09-04 13:50:40,961 - INFO - Parameter gnn_layer.0.alpha_transform.weight: torch.Size([4096, 7]), require_grad = True
+2024-09-04 13:50:40,961 - INFO - Parameter gnn_layer.0.alpha_transform.bias: torch.Size([4096]), require_grad = True
+2024-09-04 13:50:40,961 - INFO - Parameter gnn_layer.0.beta_transform.weight: torch.Size([32, 7]), require_grad = True
+2024-09-04 13:50:40,961 - INFO - Parameter gnn_layer.0.beta_transform.bias: torch.Size([32]), require_grad = True
+2024-09-04 13:50:40,961 - INFO - Parameter gnn_layer.1.feature_transform.weight: torch.Size([32, 32]), require_grad = True
+2024-09-04 13:50:40,961 - INFO - Parameter gnn_layer.1.edge_transform.weight: torch.Size([1, 5]), require_grad = True
+2024-09-04 13:50:40,962 - INFO - Parameter gnn_layer.1.edge_transform.bias: torch.Size([1]), require_grad = True
+2024-09-04 13:50:40,962 - INFO - Parameter gnn_layer.1.alpha_transform.weight: torch.Size([1024, 7]), require_grad = True
+2024-09-04 13:50:40,962 - INFO - Parameter gnn_layer.1.alpha_transform.bias: torch.Size([1024]), require_grad = True
+2024-09-04 13:50:40,962 - INFO - Parameter gnn_layer.1.beta_transform.weight: torch.Size([32, 7]), require_grad = True
+2024-09-04 13:50:40,962 - INFO - Parameter gnn_layer.1.beta_transform.bias: torch.Size([32]), require_grad = True
+2024-09-04 13:50:40,962 - INFO - Parameter output_linear.weight: torch.Size([1, 32]), require_grad = True
+2024-09-04 13:50:40,962 - INFO - Parameter output_linear.bias: torch.Size([1]), require_grad = True
+2024-09-04 13:50:40,962 - INFO - Parameter edge_recons_linear.weight: torch.Size([5, 64]), require_grad = True
+2024-09-04 13:50:40,963 - INFO - Parameter edge_recons_linear.bias: torch.Size([5]), require_grad = True
+2024-09-04 13:50:51,133 - INFO - Epoch (0/100000)NITLoss is 0.00.PHOLoss is 0.00.PHOgrad is -2.42.NITgrad is 10000.00.Loss is 58909.12
+2024-09-04 13:52:40,401 - INFO - Epoch (0/100000). Val Loss is 12195909.0
+2024-09-04 13:52:44,031 - INFO - Epoch (1/100000)NITLoss is 313.99.PHOLoss is 266.11.PHOgrad is 8.97.NITgrad is -0.24.Loss is 22170.05
+2024-09-04 13:52:44,356 - INFO - Epoch (2/100000)NITLoss is 0.00.PHOLoss is 0.00.PHOgrad is 10000.00.NITgrad is 10000.00.Loss is 10694.93
+2024-09-04 13:52:44,672 - INFO - Epoch (3/100000)NITLoss is 0.00.PHOLoss is 0.00.PHOgrad is 10000.00.NITgrad is 10000.00.Loss is 38730.51
+2024-09-04 13:52:45,083 - INFO - Epoch (4/100000)NITLoss is 0.00.PHOLoss is 0.00.PHOgrad is 0.08.NITgrad is 0.06.Loss is 30046.99
