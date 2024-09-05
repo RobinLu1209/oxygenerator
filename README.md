@@ -31,3 +31,7 @@ This repository contains the code implementation for the paper *OXYGENERATOR: Re
 ```
 python main.py --hidden_dim 32 --layer_num 2 --epoch 500 --lr 1e-3
 ```
+
+## Contact
+
+Bin Lu (robinlu1209@sjtu.edu.cn), Ze Zhao (zhaoze@sjtu.edu.cn)
